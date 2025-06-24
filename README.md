@@ -4,9 +4,7 @@ A good-looking, reusable React component for Supabase authentication.
 
 ## Preview
 
-![Supa Login Demo](./assets/supa-login-demo.gif)
-![Sign In Preview](./assets/signin-preview.png)
-![Sign Up Preview](./assets/signup-preview.png)
+![Supa Login Demo](https://raw.githubusercontent.com/notfawkes/supa-login/095366d9656ac1372a02bbac7bbc7e405e3265bd/assets/supa-login-demo.gif)
 
 ## Installation
 
