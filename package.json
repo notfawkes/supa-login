@@ -1,0 +1,61 @@
+{
+  "name": "supa-login",
+  "version": "1.0.1",
+  "type": "module",
+  "keywords": [
+    "react",
+    "supabase",
+    "auth",
+    "login",
+    "signup",
+    "authentication",
+    "react-component",
+    "supabase-ui"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc --emitDeclarationOnly --project tsconfig.app.json",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/auth-ui-react": "^0.4.7",
+    "@supabase/auth-ui-shared": "^0.1.8"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0 || ^19.0.0",
+    "react-dom": "^18.2.0 || ^19.0.0",
+    "@supabase/supabase-js": "^2.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react-swc": "^3.10.2",
+    "eslint": "^9.29.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "0.4.20",
+    "globals": "^16.2.0",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.34.1",
+    "vite": "^7.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "@supabase/supabase-js": "^2.50.1"
+  },
+  "main": "./dist/supa-login.umd.js",
+  "module": "./dist/supa-login.es.js",
+  "types": "./dist/components/Auth.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/supa-login.es.js",
+      "require": "./dist/supa-login.umd.js"
+    }
+  },
+  "files": [
+    "dist",
+    "assets",
+    "README.md",
+    "package.json"
+  ]
+}
